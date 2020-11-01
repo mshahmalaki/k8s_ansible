@@ -17,3 +17,9 @@ cd /vagrant/k8s.yaml.d
 kubectl apply -f ...
 ```
 
+Deploy an Example App on k8s Cluster (Guestbook):
+```bash
+cd /vagrant/guestbook
+kubect apply -f .
+```
+
